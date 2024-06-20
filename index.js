@@ -4,6 +4,7 @@ const key = '95e4765303293a48503828f719845bcb'
 let lati
 let long
 
+const weatherDetailsContainer = $('#containerWeather')
 const searchBarPlace = $('#searchBarId')
 const searchBarButtonPlace = $('#searchBarButtonId')
 const tempImagePlace = $('#tempImageId')
@@ -12,6 +13,7 @@ const cityPlace = $('#cityId')
 const humidityPlace = $('#humidityId')
 const windSpeedPlace = $('#windSpeedId')
 const descPlace = $('#descId')
+
 
 
 //Using jQuery
@@ -117,4 +119,5 @@ searchBarButtonPlace.click ( (event) => {
     event.preventDefault()
     const value = searchBarPlace.val()
     letandLong(value)
+    weatherDetailsContainer.css("height", "500px")
 })
