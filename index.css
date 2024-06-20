@@ -1,0 +1,78 @@
+body{
+    background-image: url(bg.png);
+    background-size: 100%;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherAppContainer{
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    /* background-color: aqua;*/
+    background-color: rgba(169, 169, 169, 0.5); /* Dark greyish-white with 50% transparency */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+
+.formcss{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchBar{
+    background-color: aliceblue;
+    height: 45px;
+    width: 280px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.searchButton{
+    background-color: aliceblue;
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50px;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.temp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.city{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+}
+
+.col{
+    text-align: center;
+}

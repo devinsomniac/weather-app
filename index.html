@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weatherAppContainer">
+            <form class="formcss">
+                <input id="searchBarId" class="searchBar" type="text" placeholder="City">
+                <button id="searchBarButtonId" class="searchButton"><img src="search.png" height="20px" width="15px"></button> 
+            </form>
+            <div class="weather">
+                <div id="tempImageId" class="iamge">
+                    <img  src="mist.png" height="200" width="200">
+                </div>
+                <div id="descId"></div>
+                <div id="tempId" class="temp"></div>
+                <div id="cityId" class="city">New York</div>
+            </div>
+            <div class="details">
+                 <div class="col">
+                    <img src="humidity.png">
+                    <div id="humidityId">50%</div>
+                        <p>Humidity</p>
+                 </div>
+                 <div class="col">
+                    <img src="wind.png">
+                    <div id="windSpeedId">10.29 km/h</div>
+                        <p>Wind Speed</p>
+                 </div>      
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
