@@ -1,4 +1,4 @@
-const LatLonUrl =  'http://api.openweathermap.org/geo/1.0/direct?q='
+const LatLonUrl =  'https://api.openweathermap.org/geo/1.0/direct?q='
 const url = 'https://api.openweathermap.org/data/3.0/onecall?'
 const key = '95e4765303293a48503828f719845bcb'
 let lati
