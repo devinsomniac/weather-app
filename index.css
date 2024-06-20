@@ -1,4 +1,6 @@
 body{
+    margin: 0%;
+    padding: 0%;
     background-image: url(bg.png);
     background-size: 100%;
 
@@ -75,4 +77,44 @@ body{
 
 .col{
     text-align: center;
+}
+
+@media (max-width:700px){ 
+    .weatherAppContainer{
+        height: 400px;
+        width: 300px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .searchBar{
+        height: 40px;
+        width: 200px;
+
+    }
+
+    .default-img{
+        height: 50px;
+        width: 50px;
+    }
+    .city{
+        font-size: large;
+    }
+
+    .humidityDefaultImg{
+        height: 50px;
+        width: 50px;
+    }
+
+    .windDefaultImg{
+        height: 50px;
+        width: 50px;
+    }
+
+
 }
