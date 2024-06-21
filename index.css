@@ -125,5 +125,15 @@ body{
         width: 50px;
     }
 
+    body{
+        margin: 0%;
+        padding: 0%;
+        background-image: url(bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;  /* Prevent image repetition */
+        background-position: center center; 
+    
+    }
+
 
 }
